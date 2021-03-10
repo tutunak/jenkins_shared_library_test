@@ -1,8 +1,8 @@
 package pipelines
 
 
-test_func() {
-pipeline {
+
+pipeline.node {
     agent any
 
     stages {
@@ -12,5 +12,4 @@ pipeline {
             }
         }
     }
-}
 }
