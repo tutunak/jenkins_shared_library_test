@@ -1,4 +1,4 @@
-def  call(Map pipelineParams) {
+def  call(String test = 'test') {
 pipeline.node {
     agent any
 
