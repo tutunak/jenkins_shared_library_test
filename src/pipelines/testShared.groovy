@@ -1,7 +1,7 @@
 package pipelines
 
 
-
+def  test_func() {
 pipeline.node {
     agent any
 
@@ -9,6 +9,7 @@ pipeline.node {
         stage('Hello') {
             steps {
                 echo 'Hello World2'
+                }
             }
         }
     }
